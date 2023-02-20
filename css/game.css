@@ -80,3 +80,8 @@ background-color: rgba(64, 43, 43, 0.781);
     flex-direction: column;
     gap: 15px;
 }
+@media all and (max-width:1024px) {
+    section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
