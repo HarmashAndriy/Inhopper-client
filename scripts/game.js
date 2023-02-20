@@ -10,6 +10,7 @@ const getGame = async () => {
     let res = await fetch('https://inhopper-server.vercel.app/api/games/' + id)
     let game = await res.json()
     console.log(game)
+    const torrent = game.torrent==='unknwn'?'#':game.torrent
     descriptionElem.innerHTML = `
         <img src="${game.image}" alt="">
         <div class="game_info">
@@ -22,7 +23,7 @@ const getGame = async () => {
                 <h2 class="game_price">${game.price}</h2>
                 <h3 class="disc">${game.discount}%</h3>
             </span>
-            <a href="${game.torrent}"><button class="buy">BUY</button></a>
+            <a href="${torrent}"><button class="buy">BUY</button></a>
         </div>
     `
     generalElem.innerHTML = `
