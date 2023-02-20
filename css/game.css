@@ -19,7 +19,7 @@ section{
 .game_info{
     margin: 15px;
 }
-.description p{
+.desc p{
     text-align: justify;
 }
 .game_info h1{
