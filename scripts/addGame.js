@@ -8,7 +8,7 @@ button.addEventListener('click', () => {
         newGame = {...newGame, [input.name]:input.value}
     }
     console.log(newGame)
-    fetch('http://localhost:8000/api/games', {
+    fetch('https://inhopper-server.vercel.app/api/games', {
         method: 'post',
         body: JSON.stringify(newGame),
         headers: {

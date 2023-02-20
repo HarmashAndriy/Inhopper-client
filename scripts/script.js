@@ -13,7 +13,7 @@ for(let tab of tabs){
 }
 
 const adding = async () => {
-    const res = await fetch('http://localhost:8000/api/games')
+    const res = await fetch('https://inhopper-server.vercel.app/api/games')
     const games = await res.json()
     let contentGamesElem = ''
     for(let game of games){

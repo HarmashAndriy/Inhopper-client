@@ -7,7 +7,7 @@ const getGame = async () => {
     let params = (new URL(document.location)).searchParams
     let id = params.get('id')
 
-    let res = await fetch('http://localhost:8000/api/games/' + id)
+    let res = await fetch('https://inhopper-server.vercel.app/api/games/' + id)
     let game = await res.json()
     console.log(game)
     descriptionElem.innerHTML = `
