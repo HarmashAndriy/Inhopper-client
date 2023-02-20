@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="./css/style.css">    
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img src="./img/logo.png" alt="">
+            <div class="search_box">
+                <div class="search"><input type="search" placeholder="Search..." list=""><i class="bi bi-search"></i></div>
+            </div>
+            <input type="checkbox" id="toggler">
+            <label class="menu-btn" for="toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="add.html">Add Games</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="banner">
+            <img src="img/banner.webp" alt="">
+            <div class="info">
+                <h1>Legendary games <br> only here!</h1>
+                <button>GO</button>
+            </div>
+        </header>
+        <section class="main">
+            <div class="left">
+                <ul class="tabs">
+                    <li class="tab">New</li>
+                    <li class="tab">Leaders</li>
+                    <li class="tab">Likely</li>
+                </ul>
+                <div class="cards" id="cards">
+
+                </div>
+            </div>
+            <div class="right"></div>
+        </section>
+        <div class="footer">
+            <img src="./img/subscribtion.svg" alt="">
+        </div>
+    </div>
+<script src="scripts/script.js"></script>
+</body>
+</html>

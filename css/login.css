@@ -1,0 +1,29 @@
+input {
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    width: 300px;
+    padding: 10px 35px 10px 15px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 0px 0px #ccc4c3;
+    font-size: 0.9rem;
+}
+h4, section a{
+    font-size: 0.8rem;
+}
+section a{
+    color: blue;
+    transition: 0.2s all;
+}
+section a:hover{
+    color: rgb(156, 115, 27);
+}
+.hide{
+    display: none;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}

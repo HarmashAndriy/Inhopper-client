@@ -1,0 +1,79 @@
+.adding{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+}
+.adding h2{
+    font-size: 1.3rem;
+}
+.adding h3, .adding h2{
+    text-align: center;
+}
+.block{
+    background-color: #ccc4c36f;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 1000px;
+}
+.general_info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+}
+.block input{
+    border: 0;
+    border-radius: 30px;
+    outline: 0;
+    width: 200px;
+    padding: 10px 15px 10px 15px;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 0px 0px #ccc4c3;
+    font-size: 0.9rem;
+}
+.requirements{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.minimal, .recomended{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+@media all and (max-width:1024px) {
+    .block{
+        width: 740px;
+    }
+    .requirements{
+        grid-template-columns: 1fr;
+    }
+    header{
+        display: none;
+    }
+}
+@media all and (max-width:768px) {
+    .block{
+        width: fit-content;
+    }
+}
+.add_game{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    padding: 10px 35px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(64, 43, 43, 0.603);
+    transition: 0.2s;
+}
+.add_game:hover{
+    background-color: rgba(64, 43, 43, 0.781);
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/add.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <img src="./img/logo.png" alt="">
+            <div class="search_box">
+                <div class="search"><input type="text" placeholder="Search..."><i class="bi bi-search"></i></div>
+            </div>
+            <input type="checkbox" id="toggler">
+            <label class="menu-btn" for="toggler">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu">
+                <ul class="list">
+                    <li><a href="index.html">Main</a></li>
+                    <li><a href="add.html">Add Games</a></li>
+                    <li><a href="">Support</a></li>
+                    <li><a href="login.html">Log in</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="banner">
+            <img src="img/banner.webp" alt="">
+            <div class="info">
+                <h1>ADD GAME</h1>
+            </div>
+        </header>
+        <section>
+             <div class="adding">
+                <div class="block">
+                    <div class="general_info">
+                        <h3>Game`s name</h3>
+                        <input type="text" class="input" name="name" id="name">
+                        <h3>Genre</h3>
+                        <input type="text" class="input" name="genre"  id="genre">
+                        <h3>Short Description</h3>
+                        <input type="text" class="input" name="description"  id="description">
+                        <h3>Price</h3>
+                        <input type="text" class="input" name="price" id="price">
+                        <h3>Discount</h3>
+                        <input type="number" class="input" name="discount" id="discount">
+                        <h3>Year</h3>
+                        <input type="date" class="input" name="year" id="year">
+                        <h3>Company</h3>
+                        <input type="text" class="input" name="company" id="company">
+                        <h3>Language</h3>
+                        <input type="text" class="input" name="language" id="language">
+                        <h3>Image</h3>
+                        <input type="text" class="input" name="image" id="image">
+                        <h3>Drive</h3>
+                        <input type="text" class="input" name="drive" id="drive">
+                    </div>
+                </div>
+                <div class="block">
+                    <div class="requirements">
+                        <div class="minimal">
+                            <h3>Minimal OS</h3>
+                            <input type="text" class="input" name="min_os" id="min_os">
+                            <h3>Minimal Processor</h3>
+                            <input type="text" class="input" name="min_processor" id="min_processor">
+                            <h3>Minimal RAM</h3>
+                            <input type="text" class="input" name="min_ram" id="min_ram">
+                            <h3>Minimal Videocard</h3>
+                            <input type="text" class="input" name="min_videocard" id="min_videocard">
+                        </div>
+                        <div class="recomended">
+                            <h3>OS</h3>
+                            <input type="text" class="input" name="os" id="os">
+                            <h3>Processor</h3>
+                            <input type="text" class="input" name="processor" id="processor">
+                            <h3>RAM</h3>
+                            <input type="text" class="input" name="ram" id="ram">
+                            <h3>Videocard</h3>
+                            <input type="text" class="input" name="videocard" id="videocard">
+                        </div>
+                    </div>
+                </div>
+                <button class="add_game" id="add_game">Add Game</button> 
+             </div>
+        </section>
+        <div class="footer">
+            <img src="./img/subscribtion.svg" alt="">
+        </div>
+    </div>
+<script src="./scripts/addGame.js"></script>
+</body>
+</html>

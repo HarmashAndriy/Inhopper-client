@@ -1,0 +1,82 @@
+section{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin-top: 15px;
+    gap: 15px;
+}
+.desc{
+    padding: 15px;
+    background-color: #eee5e6;
+    height: fit-content;
+}
+.desc img{
+    width: 100%;
+    max-height: 500px;
+    object-position: center;
+    object-fit: cover;
+    z-index: 1;
+}
+.game_info{
+    margin: 15px;
+}
+.game_info h1{
+    font-size: 1.5rem;
+}
+.game_info h3{
+    font-size: 1rem;
+    color: rgb(139, 119, 119);
+}
+.disc{
+    background-color: rgb(139, 119, 119);
+    width: fit-content;
+    padding: 3px 5px;
+    border-radius: 3px;
+}
+.purchase{
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+    align-items: center;
+}
+.purchase span{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.purchase button{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-weight: 700;
+    border: 0;
+    outline: 0;
+    padding: 10px 35px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-color: rgba(64, 43, 43, 0.603);
+    transition: 0.2s;
+}
+.purchase button:hover{
+background-color: rgba(64, 43, 43, 0.781);
+}
+.other{
+    padding: 15px;
+    background-color: #eee5e6;
+    height: fit-content;   
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.grid_box{
+    margin: 7px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.grid_box p, .grid_box span{
+    font-size: 0.9rem;
+}
+.right_side{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
