@@ -22,7 +22,7 @@ const getGame = async () => {
                 <h2 class="game_price">${game.price}</h2>
                 <h3 class="disc">${game.discount}%</h3>
             </span>
-            <button class="buy">BUY</button>
+            <a href="${game.torrent}"><button class="buy">BUY</button></a>
         </div>
     `
     generalElem.innerHTML = `
