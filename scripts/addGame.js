@@ -15,4 +15,5 @@ button.addEventListener('click', () => {
             'content-type': 'application/json'
         }
     })
+    alert("Game is added!")
 })
