@@ -17,7 +17,7 @@ const getGame = async () => {
             <h1>${game.name}</h1>
             <h3>${game.jenre}</h3>
         </div>
-        <p>${game.description}</p>
+        <p class="description">${game.description}</p>
         <div class="purchase">
             <span>
                 <h2 class="game_price">${game.price}</h2>
